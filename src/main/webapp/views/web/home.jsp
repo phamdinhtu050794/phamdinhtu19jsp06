@@ -12,12 +12,12 @@
 
 	<div class="col-lg-3">
 
-		<h1 class="my-4">The Shi </h1>
+		<!-- <h1 class="my-4">The Shi </h1> -->
 		<div class="list-group">
 			<a href="#" class="list-group-item">category</a>
-			 <a href="#" class="list-group-item">T-Shirt</a> 
-			 <a href="#" class="list-group-item">Copper T-Shirt</a>
-			 <a href="#" class="list-group-item">Suit</a>
+			 <a href="#" class="list-group-item">category</a> 
+			 <a href="#" class="list-group-item">category</a>
+			
 				
 		</div>
 
