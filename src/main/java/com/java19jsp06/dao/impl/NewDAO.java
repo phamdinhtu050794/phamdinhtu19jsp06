@@ -17,6 +17,14 @@ public class NewDAO extends AbstractDAO<NewModel> implements INewDAO {
 		
 	
 	}
+
+	@Override
+	public Long save(NewModel newModel) {
+		
+		String sql = "INSERT INTO new (title, content, categoryid) VALUES (?, ?, ?) ";
+		return insert(sql, newModel.getTitle(), newModel.getContent(), newModel.getCategoryId());
+		
+	}
 	
 	
 
